@@ -1,0 +1,43 @@
+# ==============================================================================
+# Domain B Heavy-Metal Carbon Adsorption ML Framework
+# Software Dependencies & Environment Specification
+# ==============================================================================
+#
+# ENVIRONMENT PROVENANCE DECLARATION:
+# 1. Confirmed Historical Execution Environment (Phase 3.1 - Phase 3.3):
+#    Python: 3.10 - 3.12
+#    scikit-learn: 1.4.0+ (Historical baseline)
+#
+# 2. Observed Local Environment (Audited 2026-11-23):
+#    Python: 3.13.5 (Anaconda build, Clang 14.0.6)
+#    scikit-learn: 1.9.1
+#    numpy: 2.4.6
+#    pandas: 2.3.3
+#    matplotlib: 3.10.8
+#    scipy: 1.17.1
+#    pillow: 10.4.0
+#
+# 3. Validated Compatibility Range:
+#    Python: >= 3.10, < 3.14
+#    scikit-learn >= 1.4.0
+#    numpy >= 1.24.0
+#    pandas >= 2.0.0
+#    matplotlib >= 3.7.0
+#    scipy >= 1.10.0
+#    pillow >= 9.5.0
+# ==============================================================================
+
+# Core Scientific Computing & Machine Learning
+numpy>=1.24.0,<=2.4.6
+pandas>=2.0.0,<=2.3.3
+scipy>=1.10.0,<=1.17.1
+scikit-learn>=1.4.0,<=1.9.1
+
+# Publication Graphics & Typography
+matplotlib>=3.7.0,<=3.10.8
+pillow>=9.5.0,<=10.4.0
+
+# Optional Testing & Code Quality
+pytest>=7.4.0
+flake8>=6.1.0
+black>=23.9.0

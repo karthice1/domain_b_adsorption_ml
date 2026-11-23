@@ -1,0 +1,15 @@
+name: domain_b_adsorption_ml
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python>=3.10,<3.14
+  - numpy>=1.24.0,<=2.4.6
+  - pandas>=2.0.0,<=2.3.3
+  - scipy>=1.10.0,<=1.17.1
+  - scikit-learn>=1.4.0,<=1.9.1
+  - matplotlib>=3.7.0,<=3.10.8
+  - pillow>=9.5.0,<=10.4.0
+  - pip
+  - pip:
+      - pytest>=7.4.0

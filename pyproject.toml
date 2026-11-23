@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "domain_b_adsorption_ml"
+version = "1.0.0"
+description = "Machine-learning evaluation of time-resolved Cr(VI) and Pb(II) dynamic adsorption on activated carbons using pre-assay inputs."
+readme = "README.md"
+authors = [
+  { name = "Dr. V. Karthik", email = "karthik.vasanthakumar@kahedu.edu.in" }
+]
+license = { text = "BSD-3-Clause" }
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Scientific/Engineering",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence"
+]
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.24.0",
+  "pandas>=2.0.0",
+  "scipy>=1.10.0",
+  "scikit-learn>=1.4.0",
+  "matplotlib>=3.7.0",
+  "pillow>=9.5.0"
+]
+
+[project.urls]
+Homepage = "https://github.com/karthice1/domain_b_adsorption_ml"
+Repository = "https://github.com/karthice1/domain_b_adsorption_ml"
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=7.4.0",
+  "black>=23.9.0",
+  "flake8>=6.1.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*", "sensitivity_analysis*", "quality_control*", "figure_generation*"]

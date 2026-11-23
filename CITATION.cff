@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software artifact and the accompanying research article."
+title: "Research Software for Study-Grouped and Leave-One-Study-Out Machine-Learning Evaluation of Cr(VI) and Pb(II) Adsorption on Activated Carbons"
+version: 1.0.0
+date-released: 2026-11-23
+authors:
+  - family-names: "Karthik"
+    given-names: "V."
+    orcid: "https://orcid.org/0009-0002-9336-8287"
+    affiliation: "Department of Civil Engineering, Karpagam Academy of Higher Education, Coimbatore, Tamil Nadu, India"
+    email: "karthik.vasanthakumar@kahedu.edu.in"
+repository-code: "https://github.com/karthice1/domain_b_adsorption_ml"
+keywords:
+  - "machine learning"
+  - "activated carbon"
+  - "heavy metal remediation"
+  - "adsorption kinetics"
+  - "leave-one-study-out"
+  - "study-grouped cross-validation"
+  - "chromium removal"
+  - "lead removal"
+  - "environmental engineering"
+  - "computational materials science"
+license: "BSD-3-Clause"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.PENDING"
+    description: "Zenodo permanent software archive DOI"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Karthik"
+      given-names: "V."
+      orcid: "https://orcid.org/0009-0002-9336-8287"
+      affiliation: "Department of Civil Engineering, Karpagam Academy of Higher Education, Coimbatore, Tamil Nadu, India"
+      email: "karthik.vasanthakumar@kahedu.edu.in"
+  title: "Study-grouped and leave-one-study-out evaluation of machine-learning models for time-resolved Cr(VI) and Pb(II) uptake on activated carbons using pre-assay inputs"
+  year: 2026
+  journal: "Manuscript Submitted for Peer Review"
+  status: "under-review"

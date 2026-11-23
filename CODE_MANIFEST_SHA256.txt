@@ -1,0 +1,70 @@
+# ==============================================================================
+# Domain B Activated-Carbon Adsorption ML Framework (v1.0.0 Release Manifest)
+# Cryptographic SHA-256 Manifest of Packaged Source & Assets
+# Date: 2026-11-23
+# Licence: BSD 3-Clause (Copyright (c) 2026, Dr. V. Karthik)
+# Repository: https://github.com/karthice1/domain_b_adsorption_ml
+# Total Tracked Files: 60
+# ==============================================================================
+# SHA-256 Hash                                                        Size (B)  Relative Path
+# ------------------------------------------------------------------------------------------
+df79ebcc9b976021c1792dea70bd2acc5e5bc276c06cd0d9ce8d853c1b244a31         972  .gitignore
+b9a467a031555cc0ad21906a220161f5e801edc41c33e17bf2c0d313a87ad8e0        1695  CITATION.cff
+062b6d1ec7367a4f60ba7fb25c4af01f222eb3784c382d2b719fab5baa1e84eb       24337  CODE_AUDIT_REPORT.md
+faabdb858a6621727ce6ed000c3ddbd5e2d017a5e12aa926533021cbc1250893        8294  CODE_RELEASE_SECURITY_AND_LICENCE_AUDIT.md
+ded1205eb9b66f705473c3ced9fb0f9e5d9689f93297436bd3c22133a1469a62        6222  CODE_TO_MANUSCRIPT_TRACEABILITY.csv
+2d8dd92af8996ec107e9e2952f2c00a5ebeee51e33cc6e558d27c82af0bdb2b2       25979  DOMAIN_B_SOFTWARE_PUBLICATION_READINESS_REPORT.md
+5cba9460c528595a42722676efdbaaf24154ee787e4150c51a050e2d8216584e        1638  LICENCE_ACTIVATION_CHANGELOG.md
+7c6269b5ef42d61bc762d645ad7bd8eadd662f8ea32023b995d5f39f9939fb61        1502  LICENSE
+6db4f6837dc269d114bc42f9f1764fcce3f65e851d106c49fe16d0252bf461e9        9249  PACKAGING_CHANGELOG.md
+7fecfc44f73fb6dc5a96e95c367ec434f7ccea4d7ec509a867a7dfadd9aec9c6       14660  README.md
+f1b0cdb8dc8c1fd8bd00fbecce442af4b5f40548515f8b8e220bf92a9b9c4b5b        2418  REPRODUCIBILITY_MATRIX.csv
+cca1d5b69fb887f6bee1476eb933b1c98e072cf6ca233dfd76c60efb5e186c7c        5524  REPRODUCTION_INSTRUCTIONS.md
+82178920c19a9e9a519dca9ae46182f37a3d49cbb4e92b46e32007badc7a199c        3920  ZENODO_METADATA_DRAFT.md
+443336c33c14b8cb422dbed38863a67f3c7fdde8fd39e9c83023f10d6f25fcd9        5621  docs/data_dictionary.md
+6eb33283872ae7b580dccd042f2948334aa93a4f4cecde9785d7f4269f4180ec        4102  docs/execution_guide.md
+c6184349d16eaf3441bbf51622a7a691e465d581515801439b343cd4b6c4adbd        3306  docs/licensing_guide.md
+343c78191c97c2c42aad052ed2621df0497489e26a95dc444b38face8f60c57d        2074  docs/publication_metadata.md
+6697c9a3354876a6a9aba7606c4cabdffc1c2653d22eaaceb6bcf0f9db3bd9f7        3943  docs/research_workflow.md
+cc13d9c5a12ed236f19573cb6d2373a392fbbaf958ab434754d635e90ab802dc        3298  docs/software_limitations.md
+983dfe177dea9883660573847cd2331ebff6c5eea7139763e45c6a41d03c8de6         313  environment.yml
+7da989cfa4781b68dadfe9d39b521be216638c3a61cf53ee57c052362e99fea1       43257  figure_generation/FIGURE_1_PARITY_PLOTS.pdf
+d99d50580eeceb455d287b716f617b061cf025b629962850d3d0343b91fb7ee4       36717  figure_generation/FIGURE_2_RESIDUAL_DISTRIBUTIONS.pdf
+d60a6817598d36e507ffcf46cfd19c34057f4db65567fc457c94bde9f0f0b151       29208  figure_generation/FIGURE_3_CORPUS_TOPOLOGY.pdf
+3b853e02d56b96946e65f442b54fdddba326590bdd3e2fe9126e9e73195c2b8e       51697  figure_generation/FIGURE_4_FEATURE_COVERAGE_POPULATION_C.pdf
+13768db83b9be8131935fc35c7a14f0ba4bfdfa65240dbc6677ef6a2ad36cc95       67394  figure_generation/TABLE_1_FROZEN_MODEL_PERFORMANCE.pdf
+20482fb46f9aeb1bd3939e75575b8930b9962e364dfab6ceedd4554e0282b2ff          32  figure_generation/__init__.py
+f2f0eda5724c5610db6c2942f531842f205284dc2d7485f38a8c0a1bb9f6dd7b       35418  figure_generation/generate_publication_figures_and_tables.py
+885505651865750798ea73c97c0edc5709fa53c9110b4fe986ef76975bf80f59        1459  pyproject.toml
+910a1cb7e07137b78b61a954690c6dec674f60eed364040da7181705243f627f          30  quality_control/__init__.py
+149147f03f2b850e73a2c505cc130e5f9c5a1cbcd77e6d2464708984177ec03a        4637  quality_control/qc_scientific_integrity.py
+f3bd1f4ebfb3409cf364a9eba0149ca283872f3d8337eaab3b15d9d0da0a0a03        5148  quality_control/qc_table_semantics.py
+41b99215bd3564ea9e99f9278c61212f323bac3971af8e5d7ef4de9a109f5a29        1277  requirements.txt
+c65c718878a2e7b86d6b05e5237768d9138237964bab5ae112d5651a9e10aafd        2028  sample_data/README.md
+90ffc736666e2fb8189772f9911e0553f51e3309e4baf63175c00b9f464055cb        3624  sample_data/mock_kinetic_features_sample.csv
+6c51138dbf5f99460bcf8d33ba9f21367bf5cd13d3e5cd8a06c6a7bce63c1ea4        1222  sample_data/mock_record_evidence_register.csv
+3c66fe15f5c1c5d1e3eec71bd6f47a08b623b3d9f546354831aec9b209827850          35  sensitivity_analysis/__init__.py
+c5ca72e09948dee042dea70e1d0e31f9cbbadb2d8608474026c75ccf6042df22       10484  sensitivity_analysis/compare_S3.py
+a7a1d4e495dbe8996e5b35f859a2f6de3aa23d14e0ef73d1d4eb271b32f385c6       11449  sensitivity_analysis/run_S2_sensitivity.py
+aacebf6b353011cb0078efbf059c904a46fe62b52fba7db41526cfe74e70a40a        5171  sensitivity_analysis/run_S3_sensitivity_candidate.py
+80ffe979c04354658183023614841c2275aecca432cb8aec68d54cc31314d467          18  src/__init__.py
+b43a5554e9bb261cefd3395464a93cabb9d5b554946accf85588c8eee052c736          34  src/data_processing/__init__.py
+e74d08246a10efa4e763d1305f677edad8373cf60da411895d551f73d6317fb9        2002  src/data_processing/cohort_filter.py
+f46706944a4e04791da5a940b06c04daca6e0bae115d536f5f8a7e89d6467ccf        1270  src/data_processing/data_loader.py
+657b1eb3bfcc87de40eb62e1107315dae965fff075bc8a92e0fb18ca715a764b          38  src/feature_engineering/__init__.py
+a63c2756d54cc5e359c6eef1d23ff58703f7ba441112395c2c0f23f5d25d5a9f        6178  src/feature_engineering/derive_carbon_features.py
+039ba92171d9d0990fbfeb1e32eb0a969a728d861d04f4edd0dfd9d0abb4f872          26  src/metrics/__init__.py
+8a4adedddf4a82e1fa46433877d0d7503e86e34cbdc8e392f1aa95c898735968        2014  src/metrics/metrics.py
+02f5cbe4186c81fcc7390b5f8e31dc78c423c3e19712827ae09a814b30d7c1c8          28  src/modelling/__init__.py
+0192d4b575d670173c996875ef57341f99479c5f5181d0951bb705b016344281        2455  src/modelling/experiment_logger.py
+fa3f38c615c11b44df600aaaaf79508d35ee94eafc31bc53fa89cab2a42f21cd        3858  src/modelling/feature_importance.py
+8a2380fca4b1c2daccc0fac3acb67ae97171f7e489ab311bf84837887bfcd5d9       13434  src/modelling/run_baselines.py
+94021465690b8a268481801b4194c2f8d08cd1d8471115f8727f2e40c054264b       17262  src/modelling/run_carbon_models.py
+d6f7317435ed610d127369f7ac62ad017d5d354e32d93701529ce18849b3fa28         696  src/modelling/seed.py
+63e08a919e85162af288381b2e7d8eedd7c485ef302157e6dc37d14b190b6152          29  src/validation/__init__.py
+64a363aacc28eeeeb5101a04c79d3cd80fe6c4e373bb03a1d04a3b9e97f35316        2042  src/validation/cross_validation.py
+c9e65523059716ca501c2286fa0b708e4a18cb272679e91814e73a42a0f9f97f          20  tests/__init__.py
+35d26916a49cab4f1ae44b3da2413a80e837cc7352f76fd13aa41555ef970770        1720  tests/test_artifact_generation.py
+68d793edc84a0f29449c8dac1c79a76e166c1c3157d4ad8c61f6ade1a471c2c4        2406  tests/test_cohort_and_integrity.py
+ee17b230deb37bd2bc3735a958bff5fb0199970f8bc21fceed3409065fe1bc67         901  tests/test_environment.py
+38cf39981e8b328473311cbae694768a1aeae727e0552e49d4c8ed42a41b71d2        1628  tests/test_metrics.py

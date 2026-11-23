@@ -1,0 +1,11 @@
+Record_ID,Classification,Primary_Kinetic_Dataset_Inclusion,Literature_Reference,Heavy_Metal_Analyte,DOI,Journal,Year
+1,1_Directly_reported_kinetic_qt,TRUE,Razzaq et al.,Cr(VI),10.1016/j.jece.2017.01.001,J. Environ. Chem. Eng.,2017
+2,1_Directly_reported_kinetic_qt,TRUE,Razzaq et al.,Cr(VI),10.1016/j.jece.2017.01.001,J. Environ. Chem. Eng.,2017
+3,1_Directly_reported_kinetic_qt,TRUE,Demir et al.,Cr(VI),10.1016/j.biortech.2015.03.002,Bioresour. Technol.,2015
+4,1_Directly_reported_kinetic_qt,TRUE,Depci et al.,Pb(II),10.1016/j.cej.2012.08.083,Chem. Eng. J.,2012
+5,1_Directly_reported_kinetic_qt,TRUE,Depci et al.,Pb(II),10.1016/j.cej.2012.08.083,Chem. Eng. J.,2012
+6,1_Directly_reported_kinetic_qt,TRUE,Adebisi et al.,Pb(II),10.1016/j.jclepro.2017.06.050,J. Clean. Prod.,2017
+7,1_Directly_reported_kinetic_qt,TRUE,Kongsune et al.,Pb(II),10.1016/j.jclepro.2018.04.100,J. Clean. Prod.,2018
+8,1_Directly_reported_kinetic_qt,TRUE,Acharya et al.,Pb(II),10.1016/j.jhazmat.2009.04.030,J. Hazard. Mater.,2009
+9,1_Directly_reported_kinetic_qt,TRUE,Alslaibi et al.,Pb(II),10.1016/j.chemosphere.2013.06.012,Chemosphere,2013
+10,1_Directly_reported_kinetic_qt,TRUE,Al-Malack et al.,Pb(II),10.1016/j.desal.2016.02.015,Desalination,2016
