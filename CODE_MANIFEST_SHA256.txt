@@ -9,7 +9,7 @@
 # SHA-256 Hash                                                        Size (B)  Relative Path
 # ------------------------------------------------------------------------------------------
 df79ebcc9b976021c1792dea70bd2acc5e5bc276c06cd0d9ce8d853c1b244a31         972  .gitignore
-b9a467a031555cc0ad21906a220161f5e801edc41c33e17bf2c0d313a87ad8e0        1695  CITATION.cff
+c72fca256634e266ebc4ea61f1f90926c0934b9becfeda8ffaba4bf4976b5f79        1395  CITATION.cff
 062b6d1ec7367a4f60ba7fb25c4af01f222eb3784c382d2b719fab5baa1e84eb       24337  CODE_AUDIT_REPORT.md
 faabdb858a6621727ce6ed000c3ddbd5e2d017a5e12aa926533021cbc1250893        8294  CODE_RELEASE_SECURITY_AND_LICENCE_AUDIT.md
 ded1205eb9b66f705473c3ced9fb0f9e5d9689f93297436bd3c22133a1469a62        6222  CODE_TO_MANUSCRIPT_TRACEABILITY.csv
@@ -17,14 +17,14 @@ ded1205eb9b66f705473c3ced9fb0f9e5d9689f93297436bd3c22133a1469a62        6222  CO
 5cba9460c528595a42722676efdbaaf24154ee787e4150c51a050e2d8216584e        1638  LICENCE_ACTIVATION_CHANGELOG.md
 7c6269b5ef42d61bc762d645ad7bd8eadd662f8ea32023b995d5f39f9939fb61        1502  LICENSE
 6db4f6837dc269d114bc42f9f1764fcce3f65e851d106c49fe16d0252bf461e9        9249  PACKAGING_CHANGELOG.md
-7fecfc44f73fb6dc5a96e95c367ec434f7ccea4d7ec509a867a7dfadd9aec9c6       14660  README.md
+02eef4e3c231c6844a7ce575a894d11d709fc20ac2aa3d081ca7d31ede27a305       15629  README.md
 f1b0cdb8dc8c1fd8bd00fbecce442af4b5f40548515f8b8e220bf92a9b9c4b5b        2418  REPRODUCIBILITY_MATRIX.csv
 cca1d5b69fb887f6bee1476eb933b1c98e072cf6ca233dfd76c60efb5e186c7c        5524  REPRODUCTION_INSTRUCTIONS.md
 82178920c19a9e9a519dca9ae46182f37a3d49cbb4e92b46e32007badc7a199c        3920  ZENODO_METADATA_DRAFT.md
 443336c33c14b8cb422dbed38863a67f3c7fdde8fd39e9c83023f10d6f25fcd9        5621  docs/data_dictionary.md
 6eb33283872ae7b580dccd042f2948334aa93a4f4cecde9785d7f4269f4180ec        4102  docs/execution_guide.md
 c6184349d16eaf3441bbf51622a7a691e465d581515801439b343cd4b6c4adbd        3306  docs/licensing_guide.md
-343c78191c97c2c42aad052ed2621df0497489e26a95dc444b38face8f60c57d        2074  docs/publication_metadata.md
+95c9f3d1115c322905f2b97901dbc7be6e33e9d584d5c62fce92baa0187e8b5f        2231  docs/publication_metadata.md
 6697c9a3354876a6a9aba7606c4cabdffc1c2653d22eaaceb6bcf0f9db3bd9f7        3943  docs/research_workflow.md
 cc13d9c5a12ed236f19573cb6d2373a392fbbaf958ab434754d635e90ab802dc        3298  docs/software_limitations.md
 983dfe177dea9883660573847cd2331ebff6c5eea7139763e45c6a41d03c8de6         313  environment.yml

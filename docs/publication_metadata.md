@@ -35,5 +35,6 @@
 ## 4. Digital Archiving and Identifiers
 - **Software Repository:** GitHub (release instructions provided in [DOMAIN_B_SOFTWARE_PUBLICATION_READINESS_REPORT.md](../DOMAIN_B_SOFTWARE_PUBLICATION_READINESS_REPORT.md))
 - **Permanent Digital Archive:** Zenodo (CERN) Open Research Repository
-- **Software DOI:** `10.5281/zenodo.PENDING` (Minted upon release archive upload)
-- **Article DOI:** Pending peer review acceptance
+- **Concept Software DOI (All Versions):** [10.5281/zenodo.24463279](https://doi.org/10.5281/zenodo.24463279)
+- **Version-Specific DOI (v1.0.0 Release):** [10.5281/zenodo.24463280](https://doi.org/10.5281/zenodo.24463280)
+- **Article DOI:** Not yet assigned; manuscript not yet submitted.

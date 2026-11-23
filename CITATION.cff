@@ -1,8 +1,8 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite both the software artifact and the accompanying research article."
+message: "If you use this software, please cite it using the metadata from this file, specifically the version-specific DOI (10.5281/zenodo.24463280). When publicly available, the associated research article should also be cited."
 title: "Research Software for Study-Grouped and Leave-One-Study-Out Machine-Learning Evaluation of Cr(VI) and Pb(II) Adsorption on Activated Carbons"
 version: 1.0.0
-date-released: 2026-11-23
+date-released: "2026-11-23"
 authors:
   - family-names: "Karthik"
     given-names: "V."
@@ -22,19 +22,11 @@ keywords:
   - "environmental engineering"
   - "computational materials science"
 license: "BSD-3-Clause"
+doi: "10.5281/zenodo.24463280"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.PENDING"
-    description: "Zenodo permanent software archive DOI"
-preferred-citation:
-  type: article
-  authors:
-    - family-names: "Karthik"
-      given-names: "V."
-      orcid: "https://orcid.org/0009-0002-9336-8287"
-      affiliation: "Department of Civil Engineering, Karpagam Academy of Higher Education, Coimbatore, Tamil Nadu, India"
-      email: "karthik.vasanthakumar@kahedu.edu.in"
-  title: "Study-grouped and leave-one-study-out evaluation of machine-learning models for time-resolved Cr(VI) and Pb(II) uptake on activated carbons using pre-assay inputs"
-  year: 2026
-  journal: "Manuscript Submitted for Peer Review"
-  status: "under-review"
+    value: "10.5281/zenodo.24463280"
+    description: "Version-specific archive DOI for v1.0.0"
+  - type: doi
+    value: "10.5281/zenodo.24463279"
+    description: "Concept DOI representing all versions (resolves to latest release)"

@@ -4,13 +4,13 @@
 [![License: BSD 3-Clause](https://img.shields.io/badge/License-BSD--3--Clause-blue.svg)](./LICENSE)
 [![Reproducibility Status](https://img.shields.io/badge/Reproducibility-100%25%20Verified%20(Level%20A--E)-success.svg)](./REPRODUCIBILITY_MATRIX.csv)
 [![Tests Passing](https://img.shields.io/badge/tests-10%2F10%20passed-brightgreen.svg)](./tests/)
-[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.PENDING-lightgrey.svg)](./ZENODO_METADATA_DRAFT.md)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24463279.svg)](https://doi.org/10.5281/zenodo.24463279)
 
 Publication-grade research software package supporting the computational materials and environmental engineering manuscript:
 
-> **"Study-grouped and leave-one-study-out evaluation of machine-learning models for time-resolved Cr(VI) and Pb(II) uptake on activated carbons using pre-assay inputs."**  
-> *Lead Author & Research Supervisor:* **Dr. V. Karthik** (ORCID: [0009-0002-9336-8287](https://orcid.org/0009-0002-9336-8287))  
-> *Affiliation:* Department of Civil Engineering, Karpagam Academy of Higher Education, Coimbatore, Tamil Nadu, India.  
+> **"Study-grouped and leave-one-study-out evaluation of machine-learning models for time-resolved Cr(VI) and Pb(II) uptake on activated carbons using pre-assay inputs."**
+> *Lead Author & Research Supervisor:* **Dr. V. Karthik** (ORCID: [0009-0002-9336-8287](https://orcid.org/0009-0002-9336-8287))
+> *Affiliation:* Department of Civil Engineering, Karpagam Academy of Higher Education, Coimbatore, Tamil Nadu, India.
 > *Contact Email:* `karthik.vasanthakumar@kahedu.edu.in`
 
 ---
@@ -34,7 +34,7 @@ Publication-grade research software package supporting the computational materia
 
 Adsorption onto activated carbons is a cornerstone technology for industrial effluent decontamination and heavy-metal removal. Traditional kinetic modeling relies on semi-empirical differential equations (pseudo-first-order, pseudo-second-order, intraparticle diffusion, and Elovich equations) that require fitting post-hoc parameters to experimental time-series curves.
 
-This research software implements a machine-learning framework to predict continuous, dynamic kinetic uptake ($q_t$, mg/g) directly from **pre-assay physical, chemical, and operational inputs**—measured *prior* to running batch adsorption assays. 
+This research software implements a machine-learning framework to predict continuous, dynamic kinetic uptake ($q_t$, mg/g) directly from **pre-assay physical, chemical, and operational inputs**—measured *prior* to running batch adsorption assays.
 
 ### Key Capabilities:
 - **Zero In-Assay Leakage:** Relies strictly on pre-experimental descriptors: initial concentration ($C_0$), adsorbent dosage, solution pH, temperature, contact time ($t$), BET surface area, pore volume, pore diameter, and derived mass-transfer interaction terms.
@@ -227,23 +227,35 @@ This software package is built on strict scientific anti-leakage barriers:
 
 ## 11. Citation and Attribution
 
-If you use this research software or framework in your research, please cite:
+If you use this research software or framework in your research, please cite the software artifact using its Zenodo DOIs. The associated research article citation will be added here after public publication.
+
+### Persistent Identifiers (DOIs):
+- **Concept DOI (All Versions):** [`10.5281/zenodo.24463279`](https://doi.org/10.5281/zenodo.24463279)
+  *Resolves to the latest release of the software framework on Zenodo across all versions. Use this DOI to cite the project generally.*
+- **Version-Specific DOI (v1.0.0 Release):** [`10.5281/zenodo.24463280`](https://doi.org/10.5281/zenodo.24463280)
+  *Resolves specifically and immutably to release v1.0.0 archived on Zenodo. Use this DOI to cite the exact research source code, deterministic training pipelines, pre-rendered publication figure/table benchmarks, and quality-control suites supporting the research article.*
+
+### Software BibTeX Entries:
 
 ```bibtex
-@article{karthik2026carbon_ml,
-  author    = {Karthik, V.},
-  title     = {Study-grouped and leave-one-study-out evaluation of machine-learning models for time-resolved Cr(VI) and Pb(II) uptake on activated carbons using pre-assay inputs},
-  journal   = {Pending Journal Publication},
-  year      = {2026},
-  publisher = {Department of Civil Engineering, Karpagam Academy of Higher Education}
-}
-
-@software{karthik2026domain_b_software,
+@software{karthik2026domain_b_software_v1,
   author    = {Karthik, V.},
   title     = {Research Software for Study-Grouped and Leave-One-Study-Out Machine-Learning Evaluation of Cr(VI) and Pb(II) Adsorption on Activated Carbons},
   year      = {2026},
   version   = {1.0.0},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.PENDING}
+  doi       = {10.5281/zenodo.24463280},
+  url       = {https://doi.org/10.5281/zenodo.24463280}
+}
+
+@software{karthik2026domain_b_software_concept,
+  author    = {Karthik, V.},
+  title     = {Research Software for Study-Grouped and Leave-One-Study-Out Machine-Learning Evaluation of Cr(VI) and Pb(II) Adsorption on Activated Carbons},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.24463279},
+  url       = {https://doi.org/10.5281/zenodo.24463279}
 }
 ```
+
+*Note: The associated peer-reviewed research article citation will be added here once publicly available.*
