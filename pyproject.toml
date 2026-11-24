@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "domain_b_adsorption_ml"
-version = "1.0.0"
+version = "1.0.1"
 description = "Machine-learning evaluation of time-resolved Cr(VI) and Pb(II) dynamic adsorption on activated carbons using pre-assay inputs."
 readme = "README.md"
 authors = [
@@ -30,7 +30,8 @@ dependencies = [
   "scipy>=1.10.0",
   "scikit-learn>=1.4.0",
   "matplotlib>=3.7.0",
-  "pillow>=9.5.0"
+  "pillow>=9.5.0",
+  "reportlab==5.1.0"
 ]
 
 [project.urls]

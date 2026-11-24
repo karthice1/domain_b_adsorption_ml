@@ -1,33 +1,36 @@
 # ==============================================================================
-# Domain B Activated-Carbon Adsorption ML Framework (v1.0.0 Release Manifest)
-# Cryptographic SHA-256 Manifest of Packaged Source & Assets
-# Date: 2026-11-23
+# Domain B Adsorption ML (v1.0.1 Release Manifest)
+# SHA-256 manifest of packaged files (file integrity only; not a validation of results)
+# Date: 2026-11-23 (recompute at tagging if any file changes)
 # Licence: BSD 3-Clause (Copyright (c) 2026, Dr. V. Karthik)
 # Repository: https://github.com/karthice1/domain_b_adsorption_ml
-# Total Tracked Files: 60
+# Total Tracked Files: 63 (this manifest is not listed)
 # ==============================================================================
 # SHA-256 Hash                                                        Size (B)  Relative Path
 # ------------------------------------------------------------------------------------------
-df79ebcc9b976021c1792dea70bd2acc5e5bc276c06cd0d9ce8d853c1b244a31         972  .gitignore
-c72fca256634e266ebc4ea61f1f90926c0934b9becfeda8ffaba4bf4976b5f79        1395  CITATION.cff
-062b6d1ec7367a4f60ba7fb25c4af01f222eb3784c382d2b719fab5baa1e84eb       24337  CODE_AUDIT_REPORT.md
-faabdb858a6621727ce6ed000c3ddbd5e2d017a5e12aa926533021cbc1250893        8294  CODE_RELEASE_SECURITY_AND_LICENCE_AUDIT.md
-ded1205eb9b66f705473c3ced9fb0f9e5d9689f93297436bd3c22133a1469a62        6222  CODE_TO_MANUSCRIPT_TRACEABILITY.csv
-2d8dd92af8996ec107e9e2952f2c00a5ebeee51e33cc6e558d27c82af0bdb2b2       25979  DOMAIN_B_SOFTWARE_PUBLICATION_READINESS_REPORT.md
-5cba9460c528595a42722676efdbaaf24154ee787e4150c51a050e2d8216584e        1638  LICENCE_ACTIVATION_CHANGELOG.md
+860505bd334efca781a0a8e70f7b15fdad9552b95997a6889136bfcb8833ad3d        1028  .gitignore
+a012d16684783b26a1a71ee76664b1468a5df3209470d2475cdef5e65393a9dc        4923  CHANGELOG.md
+b08120af4b2359ce087d0015b1ea2e025e4b0e9820e62d0d692ececdbdd28a53        1450  CITATION.cff
+158a2197824ce1b43684541ecb226dba4523bc076d8b27ce2a5392fba76aa8b9        8357  CODE_TO_MANUSCRIPT_TRACEABILITY.csv
 7c6269b5ef42d61bc762d645ad7bd8eadd662f8ea32023b995d5f39f9939fb61        1502  LICENSE
-6db4f6837dc269d114bc42f9f1764fcce3f65e851d106c49fe16d0252bf461e9        9249  PACKAGING_CHANGELOG.md
-02eef4e3c231c6844a7ce575a894d11d709fc20ac2aa3d081ca7d31ede27a305       15629  README.md
-f1b0cdb8dc8c1fd8bd00fbecce442af4b5f40548515f8b8e220bf92a9b9c4b5b        2418  REPRODUCIBILITY_MATRIX.csv
-cca1d5b69fb887f6bee1476eb933b1c98e072cf6ca233dfd76c60efb5e186c7c        5524  REPRODUCTION_INSTRUCTIONS.md
-82178920c19a9e9a519dca9ae46182f37a3d49cbb4e92b46e32007badc7a199c        3920  ZENODO_METADATA_DRAFT.md
-443336c33c14b8cb422dbed38863a67f3c7fdde8fd39e9c83023f10d6f25fcd9        5621  docs/data_dictionary.md
-6eb33283872ae7b580dccd042f2948334aa93a4f4cecde9785d7f4269f4180ec        4102  docs/execution_guide.md
+087e6d8b77733516c33d00fd33d89bd761bdc0f9f083f722fc63e7c187de490f       20013  README.md
+5623555459df0c940eb1ca4789c8a0ff075039f85d239d4585ce77aa38fd0b42       14442  RELEASE_AUDIT_V1_0_1.md
+3493634d7f76929090a64526e7a732d6ed899e05f8ddc88fa79ac307d5f7f86a        2844  REPRODUCIBILITY_MATRIX.csv
+47dc66bdf041c78b665497336b56f6905798b39b779a8548e24da43d78294b60        6422  REPRODUCTION_INSTRUCTIONS.md
+d0d2e56156f6ca8087815a3ffbd88ba64dffe2567035e974863ac22dee0b58bf       13102  docs/data_dictionary.md
+8635abd760ba13e429d9efb4baff01f8d2c429da80672a86fd7456e4bf67458e        5233  docs/execution_guide.md
+cd767e7e03c4144a21a8f46b8cfe316c2dcdf940e29fa1587d28b7bf405a5211       24861  docs/history/v1_0_0_prerelease_records/CODE_AUDIT_REPORT.md
+b98f3ebc0984be259ba2d06eea4d450ce86afa5d8158b418b2b22f9d5f8c65ec        8938  docs/history/v1_0_0_prerelease_records/CODE_RELEASE_SECURITY_AND_LICENCE_AUDIT.md
+8ed7d1351c478a0edc43181ea70be17823ed9f6dd9d08d98cb4559767ba344bf       26638  docs/history/v1_0_0_prerelease_records/DOMAIN_B_SOFTWARE_PUBLICATION_READINESS_REPORT.md
+78740cce3ed97af468a7ba7ee453d90536e93e4f1335facd727cce31aecd22ae        2169  docs/history/v1_0_0_prerelease_records/LICENCE_ACTIVATION_CHANGELOG.md
+48f9296e55b33b9542b5ac2bfdd4b4737042146da2a9629135fc643b0ce8aabd        9932  docs/history/v1_0_0_prerelease_records/PACKAGING_CHANGELOG.md
+72e294cda3b58612c3caeb55614011ab49c2ed4246ba3f17cbca167c3d071521        2170  docs/history/v1_0_0_prerelease_records/README.md
+6eb26347cfa09e3bf13b7b85dccf8e287f11c06ace2aa72297b76bd87d169421        4503  docs/history/v1_0_0_prerelease_records/ZENODO_METADATA_DRAFT.md
 c6184349d16eaf3441bbf51622a7a691e465d581515801439b343cd4b6c4adbd        3306  docs/licensing_guide.md
-95c9f3d1115c322905f2b97901dbc7be6e33e9d584d5c62fce92baa0187e8b5f        2231  docs/publication_metadata.md
-6697c9a3354876a6a9aba7606c4cabdffc1c2653d22eaaceb6bcf0f9db3bd9f7        3943  docs/research_workflow.md
-cc13d9c5a12ed236f19573cb6d2373a392fbbaf958ab434754d635e90ab802dc        3298  docs/software_limitations.md
-983dfe177dea9883660573847cd2331ebff6c5eea7139763e45c6a41d03c8de6         313  environment.yml
+746507ff800e25a8b159da1984c93ea69576a8ddd59309befd3c59074736aa6b        2244  docs/publication_metadata.md
+8d218b5ae95ea6774ff2cbc443db83a786147f62c02027a75d9be8fda0ea9f08        3586  docs/research_workflow.md
+e0be00f665de7c015d8f462799b02bb023c4368d8d9c2770646fe681580005ad        7254  docs/software_limitations.md
+ddf9d11531ee93099e2caa154a5c18ad10a4dd2e75f48ddfb5d0d377de1a69ea         338  environment.yml
 7da989cfa4781b68dadfe9d39b521be216638c3a61cf53ee57c052362e99fea1       43257  figure_generation/FIGURE_1_PARITY_PLOTS.pdf
 d99d50580eeceb455d287b716f617b061cf025b629962850d3d0343b91fb7ee4       36717  figure_generation/FIGURE_2_RESIDUAL_DISTRIBUTIONS.pdf
 d60a6817598d36e507ffcf46cfd19c34057f4db65567fc457c94bde9f0f0b151       29208  figure_generation/FIGURE_3_CORPUS_TOPOLOGY.pdf
@@ -35,14 +38,14 @@ d60a6817598d36e507ffcf46cfd19c34057f4db65567fc457c94bde9f0f0b151       29208  fi
 13768db83b9be8131935fc35c7a14f0ba4bfdfa65240dbc6677ef6a2ad36cc95       67394  figure_generation/TABLE_1_FROZEN_MODEL_PERFORMANCE.pdf
 20482fb46f9aeb1bd3939e75575b8930b9962e364dfab6ceedd4554e0282b2ff          32  figure_generation/__init__.py
 f2f0eda5724c5610db6c2942f531842f205284dc2d7485f38a8c0a1bb9f6dd7b       35418  figure_generation/generate_publication_figures_and_tables.py
-885505651865750798ea73c97c0edc5709fa53c9110b4fe986ef76975bf80f59        1459  pyproject.toml
+8eca4c2df5b71aef0578ff0ecef60c8a681f9fc723b00c26feb8b49bbd33fae8        1481  pyproject.toml
 910a1cb7e07137b78b61a954690c6dec674f60eed364040da7181705243f627f          30  quality_control/__init__.py
 149147f03f2b850e73a2c505cc130e5f9c5a1cbcd77e6d2464708984177ec03a        4637  quality_control/qc_scientific_integrity.py
 f3bd1f4ebfb3409cf364a9eba0149ca283872f3d8337eaab3b15d9d0da0a0a03        5148  quality_control/qc_table_semantics.py
-41b99215bd3564ea9e99f9278c61212f323bac3971af8e5d7ef4de9a109f5a29        1277  requirements.txt
-c65c718878a2e7b86d6b05e5237768d9138237964bab5ae112d5651a9e10aafd        2028  sample_data/README.md
-90ffc736666e2fb8189772f9911e0553f51e3309e4baf63175c00b9f464055cb        3624  sample_data/mock_kinetic_features_sample.csv
-6c51138dbf5f99460bcf8d33ba9f21367bf5cd13d3e5cd8a06c6a7bce63c1ea4        1222  sample_data/mock_record_evidence_register.csv
+a1011b2cd07160a4874dc55c49c35c32245a5dc1aea668948822d62f376b74b7        1300  requirements.txt
+a27d2d9002a9df6907815d1e621d6c61cd13b9d61241ef7692acd17bdc9d7fbd        2271  sample_data/README.md
+045101d8435a0b000fd7624d56ad49f11585f6d26f61dd3f1971e596bbef8224        3658  sample_data/mock_kinetic_features_sample.csv
+a310161b2855a553a5315fde12adc90f9c7cdd56ba8b2efdd04ff22b55fa472f        1278  sample_data/mock_record_evidence_register.csv
 3c66fe15f5c1c5d1e3eec71bd6f47a08b623b3d9f546354831aec9b209827850          35  sensitivity_analysis/__init__.py
 c5ca72e09948dee042dea70e1d0e31f9cbbadb2d8608474026c75ccf6042df22       10484  sensitivity_analysis/compare_S3.py
 a7a1d4e495dbe8996e5b35f859a2f6de3aa23d14e0ef73d1d4eb271b32f385c6       11449  sensitivity_analysis/run_S2_sensitivity.py

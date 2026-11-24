@@ -1,3 +1,7 @@
+> **SUPERSEDED HISTORICAL RECORD (added in v1.0.1, 2026-11-23).** This is a pre-release working record of v1.0.0, kept unchanged below this banner for provenance. It is not current documentation. Superseded content includes its licence status ("pending"; the code is BSD 3-Clause), its "100% PASS" test summary and its reference to DOIs in the data dictionary (those DOIs were incorrect). For current information see `README.md`, `docs/` and `RELEASE_AUDIT_V1_0_1.md`. Original location: `CODE_RELEASE_SECURITY_AND_LICENCE_AUDIT.md` (repository root); original SHA-256: `faabdb858a6621727ce6ed000c3ddbd5e2d017a5e12aa926533021cbc1250893`.
+
+---
+
 # DOMAIN B CODE RELEASE SECURITY, INTELLECTUAL PROPERTY AND LICENSING AUDIT
 
 **Project:** AI-Driven Machine Learning Framework for Chromium and Lead Contamination Assessment, Prediction and Remediation Intelligence Using Secondary Data  

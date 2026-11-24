@@ -1,61 +1,64 @@
-# Domain B Adsorption ML: Research Workflow and Methodology
+# Domain B Adsorption ML: Research Workflow
 
-This document outlines the end-to-end computational and empirical workflow governing the Domain B machine-learning evaluation for dynamic heavy-metal adsorption onto activated carbons.
+This document outlines the computational workflow of the Domain B evaluation of time-resolved Cr(VI) and Pb(II) uptake on activated carbons.
 
 ---
 
-## 1. End-to-End Workflow Architecture
+## 1. Workflow
 
 ```mermaid
 flowchart TD
-    subgraph Data Harmonization & Screening
-        A1["Raw Secondary Literature<br/>(20 Published Studies)"] --> A2["Harmonization & Schema Unification<br/>(PHASE2_REMEDIATION_CARBON_HARMONIZED.csv)"]
-        A2 --> A3["DR-040B Evidence Auditing<br/>(DR040B_DOMAIN_B_RECORD_EVIDENCE_REGISTER.csv)"]
-        A3 --> A4["Category 1 Filtering<br/>(Verified Dynamic Kinetic Records: N=438)"]
+    subgraph Records
+        A1["Compiled dataset of Lamsiah et al. (2026)<br/>(783 Cr(VI)/Pb(II) rows)"] --> A2["Harmonisation and schema unification<br/>(PHASE2_REMEDIATION_CARBON_HARMONIZED.csv)"]
+        A2 --> A3["Record-level evidence register<br/>(DR040B_DOMAIN_B_RECORD_EVIDENCE_REGISTER.csv)"]
+        A3 --> A4["Category 1 selection, classified on compiled data<br/>(N = 438; 20 original studies)"]
     end
 
-    subgraph Feature Engineering
-        A4 --> B1["Pre-Assay Operational Descriptors<br/>(C0, Dose, pH, Temp, Time)"]
-        A4 --> B2["Textural & Structural Descriptors<br/>(BET Area, Pore Vol, Pore Diam)"]
-        A4 --> B3["Interaction Terms & Mass Transfer<br/>(C0/Dose, C0*Time, BET/Vp, Pore Area Prod)"]
-        B1 & B2 & B3 --> B4["Canonical 12-Feature Representation"]
+    subgraph Inputs
+        A4 --> B1["Operating conditions<br/>(C0, dose, pH, T, contact time)"]
+        A4 --> B2["Textural properties<br/>(BET area, pore volume, pore diameter)"]
+        A4 --> B3["Arithmetic transformations<br/>(C0/dose, C0*t, BET/Vp, BET*Dp)"]
+        B1 & B2 & B3 --> B4["12 pre-assay inputs"]
     end
 
-    subgraph Grouped Cross-Validation
-        B4 --> C1{"Analyte Cohort Partition"}
-        C1 -->|"Cr(VI) (N=120, 5 Studies)"| C2["5-Fold Leave-One-Study-Out CV<br/>(LOSO-CV)"]
-        C1 -->|"Pb(II) (N=318, 15 Studies)"| C3["Primary 5-Fold Study-Grouped CV<br/>(3 Studies/Fold)"]
-        C1 -->|"Pb(II) Sensitivity"| C4["15-Fold Leave-One-Study-Out CV<br/>(Full LOSO-CV)"]
+    subgraph Validation designs
+        B4 --> C1{"Analyte"}
+        C1 -->|"Cr(VI) (N = 120, 5 studies)"| C2["5-fold leave-one-study-out"]
+        C1 -->|"Pb(II) (N = 318, 15 studies)"| C3["5-fold study-grouped<br/>(alphabetical modulo 5, 3 studies per fold)"]
+        C1 -->|"Pb(II), HGB-U and HGB-M only"| C4["15-fold leave-one-study-out"]
     end
 
-    subgraph Model Training & In-Fold Preprocessing
-        C2 & C3 & C4 --> D1["In-Fold Standard Scaling<br/>(Linear Models: Ridge, ElasticNet)"]
-        C2 & C3 & C4 --> D2["Tree Ensemble Training<br/>(Random Forest, Extra Trees)"]
-        C2 & C3 & C4 --> D3["Constrained Gradient Boosting<br/>(HistGradientBoosting with monotonic_cst=+1)"]
-        C2 & C3 & C4 --> D4["In-Training Study-Median Null Baselines<br/>(CARB_BASE_01)"]
+    subgraph Fitting
+        C2 & C3 & C4 --> D1["Linear models with in-fold scaling<br/>(Ridge, ElasticNet)"]
+        C2 & C3 & C4 --> D2["Tree ensembles<br/>(RF, ET)"]
+        C2 & C3 & C4 --> D3["HistGradientBoosting<br/>(HGB-U; HGB-M with monotonic_cst on t)"]
+        C2 & C3 & C4 --> D4["Training-median null baselines"]
     end
 
-    subgraph Out-of-Fold Evaluation & Diagnostics
-        D1 & D2 & D3 & D4 --> E1["Physical Non-Negativity Clipping<br/>(qt >= 0.0 mg/g)"]
-        E1 --> E2["Pooled Metrics & Fold-Wise Statistics<br/>(MAE, RMSE, R2_OOD, MedAE)"]
-        E2 --> E3["Publication Artifacts & Verification<br/>(Table 1, Figures 1-4, QC Assertions)"]
+    subgraph Evaluation
+        D1 & D2 & D3 & D4 --> E1["Truncation of predictions at zero"]
+        E1 --> E2["Pooled out-of-fold metrics<br/>(MAE, RMSE, R2_OOD, MedAE)"]
+        E2 --> E3["Table 1, Figures 1-4, QC checks"]
+        E2 --> E4["Sensitivity analyses S2 (N = 398) and S3 (N = 387)"]
     end
 ```
 
 ---
 
-## 2. Key Methodological Principles
+## 2. Methodological principles
 
-### 2.1 Anti-Leakage Guarantee
-In batch adsorption studies, dynamic kinetic data points from the same experimental run or literature study share identical adsorbent preparation methods, precursor chemistry, activation temperatures, and laboratory instrumentation. Standard random k-fold cross-validation results in severe data leakage, inflating test scores artificially because samples from the same isotherm or trajectory appear in both training and test sets.
+### 2.1 Study-aware validation
+Records of one experimental series share every input except contact time. Records of one study share adsorbent, laboratory and protocol. A split that placed records of the same study in both training and test sets would let the model draw on the study's own series and would give optimistic error estimates.
 
-To eliminate this vulnerability:
-1. **Study-Grouped CV:** All data points from any individual published study are strictly confined to either the training split or the test split—never both.
-2. **In-Fold Preprocessing:** Standard scalers and transformers calculate sample statistics strictly on the in-fold training subset.
-3. **Out-of-Distribution Null Benchmark:** Every candidate model is evaluated against the held-out study-median baseline (CARB_BASE_01) to verify whether the model outperforms the simple empirical median of known historical studies.
+To avoid this:
+1. **Study-grouped folds:** all records of a study are kept in the same fold.
+2. **In-fold preprocessing:** the scaler for the linear models is fitted on the training records of each fold only.
+3. **Training-median null:** in every fold, each test record is predicted with the median $q_t$ of that fold's training records. Models are compared with this null under the same folds.
 
-### 2.2 Physical Constraint Enforcement
-Under constant batch operating conditions with non-desorbing activated carbons, cumulative metal uptake ($q_t$, mg/g) is monotonically non-decreasing over contact time:
-$$\frac{\partial q_t}{\partial t} \ge 0$$
+How much random row-wise splitting would inflate performance on these data was not measured.
 
-Unconstrained non-linear estimators (e.g. standard gradient boosting or deep neural networks) can produce non-physical transient dips in predicted uptake over time. We enforce monotonicity directly during tree construction using histogram-based gradient boosting (`monotonic_cst=[+1, 0, ..., 0]`), guaranteeing thermodynamically sound adsorption curves.
+### 2.2 Monotonic constraint on contact time
+- **What HGB-M does:** it applies `monotonic_cst=[1, 0, ..., 0]`. This guarantees only that the fitted function does not decrease when contact time increases **and all other inputs are held fixed**.
+- **Why trajectories are not guaranteed:** along a real batch experiment, the input $C_0 t$ also changes with time and is unconstrained. The predicted uptake curve of an experiment is therefore **not guaranteed** to be non-decreasing.
+- **Status:** whether the fitted trajectories are in fact non-decreasing was not tested.
+- **Effect on accuracy:** in the primary population, the constraint produced no appreciable change in accuracy (at most 0.075 mg/g in MAE; single seed, no significance test).

@@ -1,3 +1,7 @@
+> **SUPERSEDED HISTORICAL RECORD (added in v1.0.1, 2026-11-23).** This is a pre-release working record of v1.0.0, kept unchanged below this banner for provenance. It is not current documentation. Superseded content includes its licence status, its claim that Level A reproduction was verified (the packaged training code was not re-executed), and its "fully verified ... Q1" readiness statements. For current information see `README.md`, `docs/` and `RELEASE_AUDIT_V1_0_1.md`. Original location: `DOMAIN_B_SOFTWARE_PUBLICATION_READINESS_REPORT.md` (repository root); original SHA-256: `2d8dd92af8996ec107e9e2952f2c00a5ebeee51e33cc6e558d27c82af0bdb2b2`.
+
+---
+
 # DOMAIN B RESEARCH SOFTWARE AUDIT, REPRODUCIBILITY PACKAGE AND ZENODO PUBLICATION READINESS REPORT
 
 **Project Title:** AI-Driven Machine Learning Framework for Chromium and Lead Contamination Assessment, Prediction and Remediation Intelligence Using Secondary Data  

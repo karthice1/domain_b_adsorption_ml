@@ -1,40 +1,32 @@
-# Domain B Adsorption ML: Publication and Author Metadata
+# Domain B Adsorption ML: Software Metadata
 
-## 1. Research Project Identification
-- **Project Title:** AI-Driven Machine Learning Framework for Chromium and Lead Contamination Assessment, Prediction and Remediation Intelligence Using Secondary Data
-- **Research Domain:** Domain B — Activated-Carbon Heavy-Metal Dynamic Adsorption Kinetics
-- **Manuscript Title:** *Study-grouped and leave-one-study-out evaluation of machine-learning models for time-resolved Cr(VI) and Pb(II) uptake on activated carbons using pre-assay inputs.*
-- **Software Package Name:** `domain_b_adsorption_ml`
-- **Release Version:** `1.0.0`
-- **Publication Target Date:** November 2026
+## 1. Identification
+- **Software package:** `domain_b_adsorption_ml` (Domain B Adsorption ML)
+- **Version:** 1.0.1. A documentation and metadata correction of v1.0.0; the code is unchanged.
+- **Associated manuscript:** *Study-grouped and leave-one-study-out evaluation of machine-learning models for time-resolved Cr(VI) and Pb(II) uptake on activated carbons using pre-assay inputs.* The manuscript has not yet been submitted or peer reviewed.
+- **Research project:** AI-Driven Machine Learning Framework for Chromium and Lead Contamination Assessment, Prediction and Remediation Intelligence Using Secondary Data (Domain B: activated-carbon adsorption of Cr(VI) and Pb(II)).
 
----
-
-## 2. Lead Author and Research Supervisor
-- **Author Name:** Dr. V. Karthik
-- **Role:** Lead Author, Principal Investigator, Research Supervisor
+## 2. Software author
+- **Name:** Dr. V. Karthik
 - **Department:** Department of Civil Engineering
-- **Institution:** Karpagam Academy of Higher Education (Deemed to be University)
-- **Location:** Eachanari Post, Pollachi Main Road, Coimbatore – 641 021, Tamil Nadu, India
-- **Official Institutional Email:** `karthik.vasanthakumar@kahedu.edu.in`
-- **Public ORCID:** [0009-0002-9336-8287](https://orcid.org/0009-0002-9336-8287)
+- **Institution:** Karpagam Academy of Higher Education, Coimbatore, Tamil Nadu, India
+- **E-mail:** `karthik.vasanthakumar@kahedu.edu.in`
+- **ORCID:** [0009-0002-9336-8287](https://orcid.org/0009-0002-9336-8287)
 
----
+## 3. Contributions
+- **Software author:** V. Karthik.
+- **Article contributions:** stated in the research article itself. They are not recorded here.
+- **AI assistance:** the scripts were written and run with the assistance of an AI coding assistant (Claude, Anthropic) under the author's direction. This assistance is declared in the manuscript.
 
-## 3. CRediT Author Contributions
-- **Conceptualization:** Dr. V. Karthik
-- **Methodology & Mathematical Formulation:** Dr. V. Karthik
-- **Software Architecture & Package Engineering:** Dr. V. Karthik
-- **Data Curation & Literature Harmonization:** Dr. V. Karthik
-- **Validation & Statistical Quality Control:** Dr. V. Karthik
-- **Visualization & Publication Artifacts:** Dr. V. Karthik
-- **Supervision & Governance:** Dr. V. Karthik
+## 4. Licensing
+- **Code:** BSD 3-Clause License. Copyright (c) 2026, Dr. V. Karthik.
+- **Documentation:** Creative Commons Attribution 4.0 International (CC BY 4.0).
+- **Literature-derived data:** not included; see `sample_data/README.md`.
 
----
-
-## 4. Digital Archiving and Identifiers
-- **Software Repository:** GitHub (release instructions provided in [DOMAIN_B_SOFTWARE_PUBLICATION_READINESS_REPORT.md](../DOMAIN_B_SOFTWARE_PUBLICATION_READINESS_REPORT.md))
-- **Permanent Digital Archive:** Zenodo (CERN) Open Research Repository
-- **Concept Software DOI (All Versions):** [10.5281/zenodo.24463279](https://doi.org/10.5281/zenodo.24463279)
-- **Version-Specific DOI (v1.0.0 Release):** [10.5281/zenodo.24463280](https://doi.org/10.5281/zenodo.24463280)
-- **Article DOI:** Not yet assigned; manuscript not yet submitted.
+## 5. Archiving and identifiers
+- **Source repository:** https://github.com/karthice1/domain_b_adsorption_ml
+- **Archive:** Zenodo
+- **Concept DOI (all versions):** [10.5281/zenodo.24463279](https://doi.org/10.5281/zenodo.24463279)
+- **v1.0.1 version-specific DOI:** assigned by Zenodo on release; recorded on the Zenodo record and in `CITATION.cff` on the main branch.
+- **v1.0.0 version-specific DOI:** [10.5281/zenodo.24463280](https://doi.org/10.5281/zenodo.24463280). Superseded: its documentation contains errors corrected in v1.0.1.
+- **Article DOI:** not assigned; the manuscript has not yet been submitted.

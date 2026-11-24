@@ -1,30 +1,18 @@
 # ==============================================================================
-# Domain B Heavy-Metal Carbon Adsorption ML Framework
-# Software Dependencies & Environment Specification
+# Domain B Adsorption ML (v1.0.1)
+# Software Dependencies
 # ==============================================================================
 #
-# ENVIRONMENT PROVENANCE DECLARATION:
-# 1. Confirmed Historical Execution Environment (Phase 3.1 - Phase 3.3):
-#    Python: 3.10 - 3.12
-#    scikit-learn: 1.4.0+ (Historical baseline)
-#
-# 2. Observed Local Environment (Audited 2026-11-23):
-#    Python: 3.13.5 (Anaconda build, Clang 14.0.6)
-#    scikit-learn: 1.9.1
-#    numpy: 2.4.6
-#    pandas: 2.3.3
-#    matplotlib: 3.10.8
-#    scipy: 1.17.1
-#    pillow: 10.4.0
-#
-# 3. Validated Compatibility Range:
-#    Python: >= 3.10, < 3.14
-#    scikit-learn >= 1.4.0
-#    numpy >= 1.24.0
-#    pandas >= 2.0.0
-#    matplotlib >= 3.7.0
-#    scipy >= 1.10.0
-#    pillow >= 9.5.0
+# ENVIRONMENT RECORD:
+# 1. Original S0 run: software versions were not recorded.
+# 2. S2/S3 runs and their reproduction controls (manuscript Section 3.7):
+#    Python 3.13.5, scikit-learn 1.9.1, NumPy 2.4.6, pandas 2.3.3.
+#    Same local environment (observed 2026-11-23): matplotlib 3.10.8,
+#    scipy 1.17.1, pillow 10.4.0.
+# 3. The ranges below are compatibility ranges (upper bounds = observed
+#    environment). They are not a validated environment.
+# 4. reportlab is pinned to the version of the author environment (5.1.0);
+#    it is needed only for the Table 1 PDF and was undeclared in v1.0.0.
 # ==============================================================================
 
 # Core Scientific Computing & Machine Learning
@@ -36,6 +24,7 @@ scikit-learn>=1.4.0,<=1.9.1
 # Publication Graphics & Typography
 matplotlib>=3.7.0,<=3.10.8
 pillow>=9.5.0,<=10.4.0
+reportlab==5.1.0  # Table 1 PDF (figure_generation); version of the author environment
 
 # Optional Testing & Code Quality
 pytest>=7.4.0

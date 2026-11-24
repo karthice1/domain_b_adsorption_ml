@@ -12,4 +12,5 @@ dependencies:
   - pillow>=9.5.0,<=10.4.0
   - pip
   - pip:
+      - reportlab==5.1.0
       - pytest>=7.4.0

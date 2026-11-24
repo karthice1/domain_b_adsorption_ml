@@ -1,3 +1,7 @@
+> **SUPERSEDED HISTORICAL RECORD (added in v1.0.1, 2026-11-23).** This is a pre-release working record of v1.0.0, kept unchanged below this banner for provenance. It is not current documentation. Superseded content includes its "VERIFIED - 100% MATHEMATICAL & ALGORITHMIC PARITY" status (the packaged scripts are refactored and the training code was not re-executed); its SHA-256 register remains a valid record of the original and packaged files. For current information see `README.md`, `docs/` and `RELEASE_AUDIT_V1_0_1.md`. Original location: `PACKAGING_CHANGELOG.md` (repository root); original SHA-256: `6db4f6837dc269d114bc42f9f1764fcce3f65e851d106c49fe16d0252bf461e9`.
+
+---
+
 # PACKAGING CHANGELOG: DOMAIN B ADSORPTION ML FRAMEWORK
 
 **Repository Source:** `/Users/karthik/research_project`

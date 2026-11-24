@@ -1,21 +1,26 @@
-# Sample Data and Mock Schemas for Domain B Adsorption ML
+# Sample Data: Synthetic Demonstration Files
 
-## Data Redistribution Governance & Licensing Boundary
+## What these files are
 
-In accordance with scholarly software engineering standards and copyright compliance:
-- Raw observation tables extracted from third-party published journal literature cannot be redistributed under open-source software licenses without explicit secondary distribution rights from original publishers and copyright holders.
-- To maintain complete reproducibility while preserving intellectual property compliance, this directory provides **mock sample datasets** that strictly adhere to the exact column schemas, data types, physical units, and naming conventions of the full canonical datasets.
+`mock_kinetic_features_sample.csv` and `mock_record_evidence_register.csv` are **synthetic** files of 10 rows each. They follow the column names and data types of the project's feature matrix and record evidence register.
 
-## Full Dataset Availability and Reconstruction
+**They contain no literature data.** Since v1.0.1, the study, year, journal and DOI columns use neutral labels ("Synthetic study A"–"H", year 2000, "none (synthetic record)"). These labels are not connected to any real publication. In v1.0.0 these columns carried names of real studies together with incorrect years and DOIs.
 
-1. **Local Project Environment:**
-   When running inside the author's research repository (`/Users/karthik/research_project`), the execution scripts automatically locate the frozen canonical matrices at:
-   - Feature Matrix: `phase2b/phase2b_bounded_closeout/PHASE2B_REMEDIATION_CARBON_FEATURE_MATRIX_CORRECTED.csv` (783 rows, SHA-256: `6c0531d1...`)
-   - Evidence Register: `phase3/versioned_phase3_protocol_freeze/dr040b_reconciliation/DR040B_DOMAIN_B_RECORD_EVIDENCE_REGISTER.csv` (783 rows, SHA-256: `1850fc46...`)
-   - Out-of-Fold Predictions: `phase3/model_development/domain_B_carbon/results/CARB_CR_CANDIDATE_OOF_PREDICTIONS.csv` & `CARB_PB_CANDIDATE_OOF_PREDICTIONS.csv`
+The register's `Classification` column keeps the schema value `1_Directly_reported_kinetic_qt` (and `Primary_Kinetic_Dataset_Inclusion` = `TRUE`) only so that the column remains a valid example of the real schema. In these files the value is **synthetic**: it says nothing about any real record or publication.
 
-2. **Literature Reconstruction:**
-   Users outside the private research repository can reconstruct the exact dataset by following the step-by-step extraction protocol detailed in [docs/data_dictionary.md](../docs/data_dictionary.md) and referencing the 20 primary peer-reviewed source literature articles cited in the manuscript.
+The files let users exercise the code paths (loading, feature handling, model fitting syntax). They cannot reproduce any reported result.
 
-3. **Mock Data Usage:**
-   The mock datasets in this directory allow researchers to test all code pipelines, import structures, feature engineering routines, and model training syntax without requiring access to proprietary or licensed literature extracts.
+## Why the real data are not included
+
+- The modelling records were taken from the dataset published with Lamsiah et al. (2026), *Artificial Intelligence Chemistry* 4, 100117 (https://doi.org/10.1016/j.aichem.2026.100117). The 20 original studies are listed in `docs/data_dictionary.md`.
+- These literature-derived values are not redistributed in this package, and their reuse is governed by the source publications.
+- The out-of-fold predictions, the exclusion lists and the record evidence register are also not included.
+
+## Paths used by the scripts in the author's research repository
+
+When the scripts are run inside the author's research repository, they look for:
+- `phase2b/phase2b_bounded_closeout/PHASE2B_REMEDIATION_CARBON_FEATURE_MATRIX_CORRECTED.csv` (feature matrix)
+- `phase3/versioned_phase3_protocol_freeze/dr040b_reconciliation/DR040B_DOMAIN_B_RECORD_EVIDENCE_REGISTER.csv` (evidence register)
+- `phase3/model_development/domain_B_carbon/results/CARB_CR_CANDIDATE_OOF_PREDICTIONS.csv` and `CARB_PB_CANDIDATE_OOF_PREDICTIONS.csv` (out-of-fold predictions)
+
+Outside that repository, these files are not available, and the scripts must be given explicit paths to equivalent files.

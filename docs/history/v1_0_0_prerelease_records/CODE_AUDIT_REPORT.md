@@ -1,3 +1,7 @@
+> **SUPERSEDED HISTORICAL RECORD (added in v1.0.1, 2026-11-23).** This is a pre-release working record of v1.0.0, kept unchanged below this banner for provenance. It is not current documentation. Superseded content includes its statements on packaging parity and on the role of each script. For current information see `README.md`, `docs/` and `RELEASE_AUDIT_V1_0_1.md`. Original location: `CODE_AUDIT_REPORT.md` (repository root); original SHA-256: `062b6d1ec7367a4f60ba7fb25c4af01f222eb3784c382d2b719fab5baa1e84eb`.
+
+---
+
 # DOMAIN B RESEARCH CODE AUDIT AND CLASSIFICATION REPORT
 
 **Project:** AI-Driven Machine Learning Framework for Chromium and Lead Contamination Assessment, Prediction and Remediation Intelligence Using Secondary Data

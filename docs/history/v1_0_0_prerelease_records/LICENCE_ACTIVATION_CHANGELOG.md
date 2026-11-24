@@ -1,3 +1,7 @@
+> **SUPERSEDED HISTORICAL RECORD (added in v1.0.1, 2026-11-23).** This is a pre-release working record of v1.0.0, kept unchanged below this banner for provenance. It is not current documentation. Superseded content includes its release-target statements (the current version is v1.0.1). For current information see `README.md`, `docs/` and `RELEASE_AUDIT_V1_0_1.md`. Original location: `LICENCE_ACTIVATION_CHANGELOG.md` (repository root); original SHA-256: `5cba9460c528595a42722676efdbaaf24154ee787e4150c51a050e2d8216584e`.
+
+---
+
 # DOMAIN B SOFTWARE LICENCE ACTIVATION CHANGELOG
 
 **Date:** 2026-11-23

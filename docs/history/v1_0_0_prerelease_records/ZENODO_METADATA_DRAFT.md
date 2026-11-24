@@ -1,3 +1,7 @@
+> **SUPERSEDED HISTORICAL RECORD (added in v1.0.1, 2026-11-23).** This is a pre-release working record of v1.0.0, kept unchanged below this banner for provenance. It is not current documentation. Superseded content includes its draft metadata (DOI "pending"; "complete, reproducible" description). The published Zenodo records are authoritative. For current information see `README.md`, `docs/` and `RELEASE_AUDIT_V1_0_1.md`. Original location: `ZENODO_METADATA_DRAFT.md` (repository root); original SHA-256: `82178920c19a9e9a519dca9ae46182f37a3d49cbb4e92b46e32007badc7a199c`.
+
+---
+
 # ZENODO DEPOSIT METADATA SPECIFICATION (DRAFT)
 
 **Package Identifier:** `domain_b_adsorption_ml`  

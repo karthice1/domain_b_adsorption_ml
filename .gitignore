@@ -72,3 +72,6 @@ Thumbs.db
 output/
 scratch/
 temp/
+
+# Local assistant session data (never commit)
+.claude/
