@@ -278,7 +278,7 @@ python3 figure_generation/generate_publication_figures_and_tables.py --pdf-only 
 Cite the version you used, by its version-specific DOI.
 
 - **Concept DOI (all versions; resolves to the latest version):** [`10.5281/zenodo.24463279`](https://doi.org/10.5281/zenodo.24463279)
-- **v1.0.1:** version-specific DOI assigned by Zenodo on release; listed in `CITATION.cff` on the main branch and on the Zenodo record.
+- **v1.0.1 (current):** [`10.5281/zenodo.24487116`](https://doi.org/10.5281/zenodo.24487116)
 - **v1.0.0:** [`10.5281/zenodo.24463280`](https://doi.org/10.5281/zenodo.24463280). Superseded: its documentation contains errors (source-study DOIs, four benchmark rows, the operating envelope and reproducibility statements) that are corrected in v1.0.1. The code is identical.
 
 ```bibtex
@@ -288,8 +288,8 @@ Cite the version you used, by its version-specific DOI.
   year      = {2026},
   version   = {1.0.1},
   publisher = {Zenodo},
-  doi       = {10.5281/zenodo.24463279},
-  note      = {Concept DOI; use the version-specific DOI of the version you cite}
+  doi       = {10.5281/zenodo.24487116},
+  url       = {https://doi.org/10.5281/zenodo.24487116}
 }
 ```
 

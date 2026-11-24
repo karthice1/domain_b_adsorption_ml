@@ -10,10 +10,10 @@
 # ------------------------------------------------------------------------------------------
 860505bd334efca781a0a8e70f7b15fdad9552b95997a6889136bfcb8833ad3d        1028  .gitignore
 a012d16684783b26a1a71ee76664b1468a5df3209470d2475cdef5e65393a9dc        4923  CHANGELOG.md
-b08120af4b2359ce087d0015b1ea2e025e4b0e9820e62d0d692ececdbdd28a53        1450  CITATION.cff
+fabb5f11d4c21bee098ea3aba50dfd80283e6753606035212253c8f803a2cb9f        1566  CITATION.cff
 158a2197824ce1b43684541ecb226dba4523bc076d8b27ce2a5392fba76aa8b9        8357  CODE_TO_MANUSCRIPT_TRACEABILITY.csv
 7c6269b5ef42d61bc762d645ad7bd8eadd662f8ea32023b995d5f39f9939fb61        1502  LICENSE
-087e6d8b77733516c33d00fd33d89bd761bdc0f9f083f722fc63e7c187de490f       20013  README.md
+d889c9e5bc893d7b6bf7adc915cad8d8d91c2e52a903a951362250118c1df506       19944  README.md
 5623555459df0c940eb1ca4789c8a0ff075039f85d239d4585ce77aa38fd0b42       14442  RELEASE_AUDIT_V1_0_1.md
 3493634d7f76929090a64526e7a732d6ed899e05f8ddc88fa79ac307d5f7f86a        2844  REPRODUCIBILITY_MATRIX.csv
 47dc66bdf041c78b665497336b56f6905798b39b779a8548e24da43d78294b60        6422  REPRODUCTION_INSTRUCTIONS.md
@@ -27,7 +27,7 @@ b98f3ebc0984be259ba2d06eea4d450ce86afa5d8158b418b2b22f9d5f8c65ec        8938  do
 72e294cda3b58612c3caeb55614011ab49c2ed4246ba3f17cbca167c3d071521        2170  docs/history/v1_0_0_prerelease_records/README.md
 6eb26347cfa09e3bf13b7b85dccf8e287f11c06ace2aa72297b76bd87d169421        4503  docs/history/v1_0_0_prerelease_records/ZENODO_METADATA_DRAFT.md
 c6184349d16eaf3441bbf51622a7a691e465d581515801439b343cd4b6c4adbd        3306  docs/licensing_guide.md
-746507ff800e25a8b159da1984c93ea69576a8ddd59309befd3c59074736aa6b        2244  docs/publication_metadata.md
+523a53cdc3534fe93388453bcd591f1efb9da281ec1d10125eed046e4f53c421        2208  docs/publication_metadata.md
 8d218b5ae95ea6774ff2cbc443db83a786147f62c02027a75d9be8fda0ea9f08        3586  docs/research_workflow.md
 e0be00f665de7c015d8f462799b02bb023c4368d8d9c2770646fe681580005ad        7254  docs/software_limitations.md
 ddf9d11531ee93099e2caa154a5c18ad10a4dd2e75f48ddfb5d0d377de1a69ea         338  environment.yml

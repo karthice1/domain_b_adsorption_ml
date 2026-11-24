@@ -22,8 +22,11 @@ keywords:
   - "environmental engineering"
   - "computational materials science"
 license: "BSD-3-Clause"
-doi: "10.5281/zenodo.24463279"
+doi: "10.5281/zenodo.24487116"
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24487116"
+    description: "Version-specific DOI of v1.0.1 (this version)"
   - type: doi
     value: "10.5281/zenodo.24463279"
     description: "Concept DOI representing all versions (resolves to the latest version)"

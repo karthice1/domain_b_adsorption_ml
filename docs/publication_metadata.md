@@ -27,6 +27,6 @@
 - **Source repository:** https://github.com/karthice1/domain_b_adsorption_ml
 - **Archive:** Zenodo
 - **Concept DOI (all versions):** [10.5281/zenodo.24463279](https://doi.org/10.5281/zenodo.24463279)
-- **v1.0.1 version-specific DOI:** assigned by Zenodo on release; recorded on the Zenodo record and in `CITATION.cff` on the main branch.
+- **v1.0.1 version-specific DOI:** [10.5281/zenodo.24487116](https://doi.org/10.5281/zenodo.24487116)
 - **v1.0.0 version-specific DOI:** [10.5281/zenodo.24463280](https://doi.org/10.5281/zenodo.24463280). Superseded: its documentation contains errors corrected in v1.0.1.
 - **Article DOI:** not assigned; the manuscript has not yet been submitted.
